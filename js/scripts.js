@@ -17,6 +17,10 @@ $(document).ready(function() {
 
     var newPlace = new Place(placeName, placeLocation, placeDescription);
 
-    $('#resultList').append("<li>"+ newPlace.placeName +"</li>");
+    $('#resultList').append("<li class='placeItem'><h3>"+ newPlace.placeName +"</h3><br><p class='additionalInfo'>" + newPlace.placeDescription + "</li>");
+
+    $('.placeItem').last().click(function() {
+      $(this).find('.additionalInfo').toggle();
+    });
   });
 });
