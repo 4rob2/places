@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Project Title</title>
+    <title>Places</title>
 
   	<!-- jquery-2.2.0 -->
   	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
@@ -17,6 +17,30 @@
   	<script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
+    <div class="container">
+      <h1>Oh the Places You Will Go...</h1>
+      <div class="row">
 
+        <!-- form -->
+        <div class="col-md-6">
+          <form action="">
+            <label for="placeName">Enter a the name of a place you've been to...</label>
+            <input type="text" id="placeNameInput"><br>
+            <label for="">Enter the location of this place...</label>
+            <input type="text" id="placeLocationInput"><br>
+            <label for="">Enter a brief description...</label>
+            <input type="text" id="placeDescriptionInput"><br>
+
+            <button type="submit">Submit!</button>
+          </form>
+        </div>
+
+        <!-- results list -->
+        <div class="col-md-6">
+          <ul id="resultList"></ul>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>
