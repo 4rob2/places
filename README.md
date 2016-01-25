@@ -1,37 +1,31 @@
-# _{Application Name}_
+# _Places_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This application takes information about places you've been and creates a list of those places, 1.25.2016_
 
-#### By _**{List of contributors}**_
+#### By _**Joseph Karasek Rob Reasoner**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This site was developed to practice the use of objects in js. The site will take information from the user, turn into an object using an object constructor, and then populate a list with the resulting objects._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_No special setup is needed. Just fork or clone this repo and open index.html_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs at this time._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Feel free to contact the authors of this project through GitHub._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_This site was developed and tested with the Mocha and Chai framework and assertion library. This site also uses jQuery and Bootstrap by Twitter._
 
 ### License
 
 MIT License.
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **Joseph Karasek and Rob Reasoner**
